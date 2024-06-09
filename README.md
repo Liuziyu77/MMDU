@@ -44,7 +44,7 @@ In this paper, we highlight the potential of combining <strong>retrieving and ra
 ## 💡 Highlights
 - 🔥 **Multi-turn and Multi-image**: Our benchmark showcases a conversational setting with a maximum of 20 images and 17 turns, thereby surpassing the scope of preceding works and authentically replicating real-world chat assistant interactions. 
 - 🔥 **Long Context**: With a maximum of 18k text+image tokens, MMDU evaluates the capacity of LVLMs to process and comprehend extended contextual information with a long context history.
-- 🔥 **Open-ended Evaluation**: Departing from traditional benchmarks that rely on close-ended questions with concise outputs (\eg, multiple-choice questions or short answers), our benchmark adopts a more realistic and nuanced approach, assessing LVLM's performance through free-form multi-turn outputs that prioritize scalability and explainability.
+- 🔥 **Open-ended Evaluation**: Departing from traditional benchmarks that rely on close-ended questions with concise outputs (eg, multiple-choice questions or short answers), our benchmark adopts a more realistic and nuanced approach, assessing LVLM's performance through free-form multi-turn outputs that prioritize scalability and explainability.
 
 ## MMDU Benchmark
 Although many LVLMs now claim to handle tens of thousands, hundreds of thousands, or even millions of tokens in length, their actual performance significantly declines in real-world applications as the number of images or the length of the context increases. Both the dialogue quality and image recognition capabilities of LVLMs deteriorate notably under these conditions.
