@@ -29,7 +29,8 @@
 <div align="center"></div>
 <p align="center">
   <p>
-In this paper, we highlight the potential of combining <strong>retrieving and ranking</strong> with multi-modal large language models to revolutionize perception tasks such as fine-grained recognition, zero-shot image recognition, and few-shot object recognition. Motivated by the limited zero-shot/few-shot of CLIP and MLLMs on fine-grained datasets, our <strong>RAR</strong> designs the pipeline that uses MLLM to rank the retrieved results. Our proposed approach can be seamlessly integrated into various MLLMs for real-world applications where the variety and volume of categories continuously expand. Our method opens up new avenues for research in augmenting the MLLM’s abilities with the retrieving-augmented solution and could be beneficial for other tasks such as reasoning and generation in future works.
+Generating natural and meaningful responses to communicate with multi-modal human inputs is a fundamental capability of Large Vision-Language Models (LVLMs). While current open-source LVLMs demonstrate promising performance in simplified scenarios such as single-turn single-image input, they fall short in real-world conversation scenarios such as following instructions in a long context history with multi-turn and multi-images. Existing LVLM benchmarks primarily focus on single-choice questions or short-form responses, which do not adequately assess the capabilities of LVLMs in real-world human-AI interaction applications.
+Therefore, we introduce <strong>MMDU</strong>, a comprehensive benchmark, and <strong>MMDU-45k</strong>, a large-scale instruction tuning dataset, designed to evaluate and improve LVLMs' abilities in <strong>multi-turn and multi-image conversations</strong>.
   </p>
   <a href="">
     <img src="asset/pipeline.png" alt="Logo" width="100%">
@@ -56,7 +57,12 @@ To evaluate the multi-image multi-turn dialogue capabilities of existing models,
 </a>
 
 ## 🎆 MMDU-45k Instruct Tuning Dataset
-In the MMDU-45k, we construct a total of 45k instruct tuning data conversations. Each data in our MMDU-45k dataset features an ultra-long context, with **an average image&text token length of 5k** and **a maximum image&text token length of 17k** tokens. Each dialogue contains **an average of 9 turns of Q&A**, with **a maximum of 27 turns**. Additionally, each data includes content from 2-5 images. The dataset is constructed in a well-designed format, providing excellent scalability. It can be expanded to generate a larger number and longer multi-image, multi-turn dialogues through combinations. ***The image-text length and the number of turns in MMDU-45k significantly surpass those of all existing instruct tuning datasets.*** This enhancement greatly improves the model's capabilities in multi-image recognition and understanding, as well as its ability to handle long-context dialogues.
+In the MMDU-45k, we construct a total of 45k instruct tuning data conversations. Each data in our MMDU-45k dataset features an ultra-long context, with **an average image&text token length of 5k** and **a maximum image&text token length of 17k** tokens. Each dialogue contains **an average of 9 turns of Q&A**, with **a maximum of 27 turns**. Additionally, each data includes content from 2-5 images. The dataset is constructed in a well-designed format, providing excellent scalability. It can be expanded to generate a larger number and longer multi-image, multi-turn dialogues through combinations. ***The image-text length and the number of turns in MMDU-45k significantly surpass those of all existing instruct tuning datasets.*** This enhancement greatly improves the model's capabilities in multi-image recognition and understanding, as well as its ability to handle long-context dialogues. 
+
+The diagram below illustrates the process of constructing MMDU and MMDU-45k.
+<a href="">
+  <img src="asset/construction.png" alt="Logo">
+</a>
 
 ## 🎇 Finetune with MMDU-45k
 The model fine-tuned with MMDU-45k has shown significant improvements in multi-image recognition and long-text dialogue capabilities. As demonstrated in the following case, the fine-tuned InternLM-Xcomposer2 is able to provide richer responses and more accurate visual information compared to before.
