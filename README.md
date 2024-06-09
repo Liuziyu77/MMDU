@@ -8,7 +8,7 @@
     ·
     <a href="https://yuhangzang.github.io/"><strong>Yuhang Zang</strong></a>
     ·
-    <a href="https://github.com/Liuziyu77"><strong>Xilin Wei</strong></a>
+    <strong>Xilin Wei</strong>
     ·
     <a href="https://lightdxy.github.io/"><strong>Xiaoyi Dong</strong></a>
     ·
