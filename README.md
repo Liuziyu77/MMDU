@@ -31,7 +31,7 @@
   <p>
 Generating natural and meaningful responses to communicate with multi-modal human inputs is a fundamental capability of Large Vision-Language Models (LVLMs). While current open-source LVLMs demonstrate promising performance in simplified scenarios such as single-turn single-image input, they fall short in real-world conversation scenarios such as following instructions in a long context history with multi-turn and multi-images. Existing LVLM benchmarks primarily focus on single-choice questions or short-form responses, which do not adequately assess the capabilities of LVLMs in real-world human-AI interaction applications.
     
-🚀🚀🚀Therefore, we introduce <strong>MMDU</strong>, a comprehensive benchmark, and <strong>MMDU-45k</strong>, a large-scale instruction tuning dataset, designed to evaluate and improve LVLMs' abilities in <strong>multi-turn and multi-image conversations</strong>.
+🌈Therefore, we introduce <strong>MMDU</strong>, a comprehensive benchmark, and <strong>MMDU-45k</strong>, a large-scale instruction tuning dataset, designed to evaluate and improve LVLMs' abilities in <strong>multi-turn and multi-image conversations</strong>.
   </p>
   <a href="">
     <img src="asset/pipeline.png" alt="Logo" width="100%">
