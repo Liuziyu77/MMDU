@@ -31,4 +31,7 @@
   <p>
 In this paper, we highlight the potential of combining <strong>retrieving and ranking</strong> with multi-modal large language models to revolutionize perception tasks such as fine-grained recognition, zero-shot image recognition, and few-shot object recognition. Motivated by the limited zero-shot/few-shot of CLIP and MLLMs on fine-grained datasets, our <strong>RAR</strong> designs the pipeline that uses MLLM to rank the retrieved results. Our proposed approach can be seamlessly integrated into various MLLMs for real-world applications where the variety and volume of categories continuously expand. Our method opens up new avenues for research in augmenting the MLLM’s abilities with the retrieving-augmented solution and could be beneficial for other tasks such as reasoning and generation in future works.
   </p>
+  <a href="">
+    <img src="asset/pipeline.png" alt="Logo" width="100%">
+  </a>
 <br>
