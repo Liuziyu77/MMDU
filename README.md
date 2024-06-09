@@ -36,7 +36,6 @@ In this paper, we highlight the potential of combining <strong>retrieving and ra
   </a>
 <br>
 
-
 ## 📢 News
 - 🚀 [06/11/2024] We upload our MMDU-45k dataset to huggingface.
 - 🚀 [06/11/2024] We upload our MMDU benchmark to huggingface.
@@ -53,8 +52,11 @@ Although many LVLMs now claim to handle tens of thousands, hundreds of thousands
 To evaluate the multi-image multi-turn dialogue capabilities of existing models, we have developed the MMDU Benchmark. Our benchmark comprises **110 high-quality multi-image multi-turn dialogues with more than 1600 questions**, each accompanied by detailed long-form answers. Previous benchmarks typically involved only single images or a small number of images, with fewer rounds of questions and short-form answers. However, MMDU significantly increases the number of images, the number of question-and-answer rounds, and the in-context length of the Q&A. The questions in MMUD **involve 2 to 20 images**, with **an average image&text token length of 8.2k tokens**, and **a maximum image&text length reaching 18K tokens**, presenting significant challenges to existing multimodal large models. 
 
 <a href="">
-  <img src="asset/statistic.png" alt="Logo" width="100%">
+  <img src="asset/statistic.png" alt="Logo" class="center-img">
 </a>
+
+
+
 
 
 ## 🛠️ Usage
