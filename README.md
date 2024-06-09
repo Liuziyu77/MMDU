@@ -35,3 +35,42 @@ In this paper, we highlight the potential of combining <strong>retrieving and ra
     <img src="asset/pipeline.png" alt="Logo" width="100%">
   </a>
 <br>
+
+
+## 📢 News
+- 🚀 [06/11/2024] We upload our MMDU-45k dataset to huggingface.
+- 🚀 [06/11/2024] We upload our MMDU benchmark to huggingface.
+- 🚀 [06/11/2024] Our work is submitted to arXiv.
+
+## 💡 Highlights
+- 🔥 **Multi-turn and Multi-image**: Our benchmark showcases a conversational setting with a maximum of 20 images and 17 turns, thereby surpassing the scope of preceding works and authentically replicating real-world chat assistant interactions. 
+- 🔥 **Long Context**: With a maximum of 18k text+image tokens, MMDU evaluates the capacity of LVLMs to process and comprehend extended contextual information with a long context history.
+- 🔥 **Open-ended Evaluation**: Departing from traditional benchmarks that rely on close-ended questions with concise outputs (\eg, multiple-choice questions or short answers), our benchmark adopts a more realistic and nuanced approach, assessing LVLM's performance through free-form multi-turn outputs that prioritize scalability and explainability.
+
+## MMDU Benchmark
+Although many LVLMs now claim to handle tens of thousands, hundreds of thousands, or even millions of tokens in length, their actual performance significantly declines in real-world applications as the number of images or the length of the context increases. Both the dialogue quality and image recognition capabilities of LVLMs deteriorate notably under these conditions.
+
+To evaluate the multi-image multi-turn dialogue capabilities of existing models, we have developed the MMDU Benchmark. Our benchmark comprises **110 high-quality multi-image multi-turn dialogues with more than 1600 questions**, each accompanied by detailed long-form answers. Previous benchmarks typically involved only single images or a small number of images, with fewer rounds of questions and short-form answers. However, MMDU significantly increases the number of images, the number of question-and-answer rounds, and the in-context length of the Q&A. The questions in MMUD **involve 2 to 20 images**, with **an average image&text token length of 8.2k tokens**, and **a maximum image&text length reaching 18K tokens**, presenting significant challenges to existing multimodal large models. 
+
+<a href="">
+  <img src="asset/statistic.png" alt="Logo" width="100%">
+</a>
+
+
+## 🛠️ Usage
+
+
+## ✒️Citation
+```
+@misc{liu2024rar,
+      title={RAR: Retrieving And Ranking Augmented MLLMs for Visual Recognition}, 
+      author={Ziyu Liu and Zeyi Sun and Yuhang Zang and Wei Li and Pan Zhang and Xiaoyi Dong and Yuanjun Xiong and Dahua Lin and Jiaqi Wang},
+      year={2024},
+      eprint={2403.13805},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
+
+## 📄 License
+![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg) ![Data License](https://img.shields.io/badge/Data%20License-CC%20By%20NC%204.0-red.svg) **Usage and License Notices**: The data and code are intended and licensed for research use only.
