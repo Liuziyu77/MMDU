@@ -18,7 +18,7 @@
     ·
      <a href="http://yjxiong.me/"><strong>Yuanjun Xiong</strong></a>
       ·
-     <a href="http://yjxiong.me/"><strong>Yu Qiao</strong></a>
+     <strong>Yu Qiao</strong>
     ·
      <a href="http://dahua.site/"><strong>Dahua Lin</strong></a>
     ·
