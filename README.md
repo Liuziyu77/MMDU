@@ -39,9 +39,8 @@ Generating natural and meaningful responses to communicate with multi-modal huma
 <br>
 
 ## 📢 News
-- 🚀 [06/11/2024] We upload our MMDU-45k dataset to huggingface.
-- 🚀 [06/11/2024] We upload our MMDU benchmark to huggingface.
-- 🚀 [06/11/2024] Our work is submitted to arXiv.
+- 🚀 [06/13/2024] We upload our MMDU-45k dataset to huggingface.
+- 🚀 [06/13/2024] We upload our MMDU benchmark to huggingface.
 
 ## 💡 Highlights
 - 🔥 **Multi-turn and Multi-image**: Our benchmark showcases a conversational setting with a maximum of 20 images and 17 turns, thereby surpassing the scope of preceding works and authentically replicating real-world chat assistant interactions. 
