@@ -80,11 +80,12 @@ You only need to modify the model's weight path and the path to the MMDU `benchm
 Use the `./scores/prompt.py` script to score the model's responses. Users need to provide the following information in the script:
 ```
 api_key = ""   ### your OpenAI API key
-file_save_fold = ""    ### The previously saved JSON files from "Generate Answers".
-file_get_fold = ""    ### save the scores and reason given by judgment model
+file_save_fold = ""    ### Save the scores and reason given by judgment model
+file_get_fold = ""    ### The previously saved JSON files from "Generate Answers"
 ```
-Finally, the multi-turn dialogue scoring results for each conversation will be saved as a separate JSON file.
+Finally, the multi-turn dialogue scoring results for each conversation will be saved as a separate JSON file in `file_save_fold`.
 
+To get the final scores, run `./scripts/statistic.py` to obtain **each aspect's scores**、**the overall scores** and **question count**. These scores, multiplied by ten, will be the final results.
 
 ## ✒️Citation
 ```
