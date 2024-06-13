@@ -73,18 +73,22 @@ The model fine-tuned with MMDU-45k has shown significant improvements in multi-i
 Additionally, the model fine-tuned with MMDU-45k has shown performance improvements on eight benchmarks, including MMBench, MMvet, and MMMU.
 
 ## 🛠️ Usage
-We will release the evaluation code soon!!!
+### Generate Answers
+To perform testing on MMDU, we needed to modify the inference code for the various models to support multi-image and multi-turn dialogues. We have prepared some testing scripts for currently available open-source and closed-source models in the `./model/generation` folder.
+You only need to modify the model's weight path and the path to the MMDU `benchmark.json` file. Each test result will be saved in a separate JSON file.
+### Judgement
+Use the `./scores/prompt.py` script to score the model's responses. Users need to provide the following information in the script:
+```
+api_key = ""
+file_save_fold = ""
+file_get_fold = ""
+```
+Finally, the multi-turn dialogue scoring results for each conversation will be saved as a separate JSON file.
+
 
 ## ✒️Citation
 ```
-@misc{liu2024rar,
-      title={RAR: Retrieving And Ranking Augmented MLLMs for Visual Recognition}, 
-      author={Ziyu Liu and Zeyi Sun and Yuhang Zang and Wei Li and Pan Zhang and Xiaoyi Dong and Yuanjun Xiong and Dahua Lin and Jiaqi Wang},
-      year={2024},
-      eprint={2403.13805},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
-}
+TBD
 ```
 
 ## 📄 License
