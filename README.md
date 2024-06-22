@@ -88,7 +88,12 @@ To get the final scores, run `./scripts/statistic.py` to obtain **each aspect's 
 
 ## ✒️Citation
 ```
-TBD
+@article{liu2024mmdu,
+  title={MMDU: A Multi-Turn Multi-Image Dialog Understanding Benchmark and Instruction-Tuning Dataset for LVLMs},
+  author={Liu, Ziyu and Chu, Tao and Zang, Yuhang and Wei, Xilin and Dong, Xiaoyi and Zhang, Pan and Liang, Zijian and Xiong, Yuanjun and Qiao, Yu and Lin, Dahua and others},
+  journal={arXiv preprint arXiv:2406.11833},
+  year={2024}
+}
 ```
 
 ## 📄 License
