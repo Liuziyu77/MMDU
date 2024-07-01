@@ -39,6 +39,7 @@ Generating natural and meaningful responses to communicate with multi-modal huma
 <br>
 
 ## 📢 News
+- 🚀 [07/1/2024] We will add MMDU Benchmark to evaluation toolkit [VLMEvalKit](https://github.com/open-compass/VLMEvalKit)  soon!
 - 🚀 [06/13/2024] We upload our MMDU-45k dataset to huggingface.
 - 🚀 [06/13/2024] We upload our MMDU benchmark to huggingface.
 
@@ -72,6 +73,9 @@ The model fine-tuned with MMDU-45k has shown significant improvements in multi-i
 Additionally, the model fine-tuned with MMDU-45k has shown performance improvements on eight benchmarks, including MMBench, MMvet, and MMMU.
 
 ## 🛠️ Usage
+### Support Models
+We suppoet 
+
 ### Generate Answers
 To perform testing on MMDU, we needed to modify the inference code for the various models to support multi-image and multi-turn dialogues. We have prepared some testing scripts for currently available open-source and closed-source models in the `./model/generation` folder.
 You only need to modify the model's weight path and the path to the MMDU `benchmark.json` file. Each test result will be saved in a separate JSON file.
