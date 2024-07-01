@@ -39,7 +39,7 @@ Generating natural and meaningful responses to communicate with multi-modal huma
 <br>
 
 ## 📢 News
-- 🚀 [07/1/2024] We will add MMDU Benchmark to evaluation toolkit [VLMEvalKit](https://github.com/open-compass/VLMEvalKit)  soon!
+- 🚀 [07/1/2024] We will add MMDU Benchmark to evaluation toolkit [VLMEvalKit](https://github.com/open-compass/VLMEvalKit) soon, providing a highly convenient testing solution!
 - 🚀 [06/13/2024] We upload our MMDU-45k dataset to huggingface.
 - 🚀 [06/13/2024] We upload our MMDU benchmark to huggingface.
 
