@@ -74,7 +74,9 @@ Additionally, the model fine-tuned with MMDU-45k has shown performance improveme
 
 ## 🛠️ Usage
 ### Support Models
-We suppoet 
+We now support various popular open-source and closed-source LVLMs, including **GPT-4V**, **Claude**, **LLaVa**, **LLaVa-Next**, **InternLM-Xcomposer2**, **Qwen-VL**, **idefics2**, **deepseek_vl**, **MiniCPM**, and**more**. Our evaluation process consists of two steps: the first step uses the code in the `model_generation` folder to generate results, and the second step uses the code in the `score` folder to judgement and statistic the results.
+
+Additionally, our MMDU will soon be integrated into [VLMEvalKit](https://github.com/open-compass/VLMEvalKit), an open-source evaluation toolkit of large vision-language models, providing users with a convenient testing solution.
 
 ### Generate Answers
 To perform testing on MMDU, we needed to modify the inference code for the various models to support multi-image and multi-turn dialogues. We have prepared some testing scripts for currently available open-source and closed-source models in the `./model/generation` folder.
