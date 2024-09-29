@@ -24,7 +24,7 @@
     ·
      <a href="https://myownskyw7.github.io/"><strong>Jiaqi Wang</strong></a>
   </p>
-  <h2 align="center">Submitted to arXiv</h2>
+  <h2 align="center">Accepted By NeurIPS2024 Dataset and Benchmark Track!</h2>
   📖<a href="https://arxiv.org/abs/2406.11833">Paper</a> |🏠<a href="https://liuziyu77.github.io/MMDU/">Homepage</a></h3>|🤗<a href="https://huggingface.co/datasets/laolao77/MMDU">Huggingface</a></h3>
 <div align="center"></div>
 <p align="center">
