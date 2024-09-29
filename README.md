@@ -39,6 +39,7 @@ Generating natural and meaningful responses to communicate with multi-modal huma
 <br>
 
 ## 📢 News
+- 🚀 [09/28/2024] Our paper is accepted by NeurIPS2024!
 - 🚀 [08/12/2024] We release the code to finetune LLaVa-v1.5-7b on multi-images datasets.
 - 🚀 [07/1/2024] We will add MMDU Benchmark to evaluation toolkit [VLMEvalKit](https://github.com/open-compass/VLMEvalKit) soon, providing a highly convenient testing solution!
 - 🚀 [06/13/2024] We upload our MMDU-45k dataset to huggingface.
